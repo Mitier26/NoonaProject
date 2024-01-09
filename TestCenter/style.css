@@ -1,0 +1,56 @@
+body {
+    width: 100vw;
+}
+
+#b {
+    width: 100%;
+}
+
+
+#nav {
+    padding: 30px 38px;
+    margin: 0px 100px;
+}
+
+#btn {
+    background-color: #4c2e56;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 180px;
+}
+
+.nav_logo_size{
+    width: 86px;
+    height: 30px;
+}
+
+.nav_menu {
+    float: right;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+
+.nav_item {
+    text-decoration: none;
+    color: #4c2e56;
+    margin: 5px;
+}
+
+.nav_item:hover {
+    text-decoration: underline;
+}
+
+.login_wrapper {
+    width: 100%;
+    margin: 60px 0px 0px;
+    text-align: center;
+}
+
+.login_option {
+    width: 497px;
+    height: 335px;
+    padding: 30px 40px;
+    background: #f5f6fa;
+    margin: 0 auto;
+}

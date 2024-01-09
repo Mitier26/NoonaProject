@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box {
+    border: 50px solid black;
+    width: 200px;
+    padding: 50px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box:nth-child(odd) {
+    border-radius: 10px;
+}
+
+.box:nth-child(3n) 
+{
+    border-radius: 30px;
+}
+
+.red {
+    border-color: indianred;
+}
+
+.green {
+    border-color: greenyellow;
+}
+
+.blue {
+    border-color: dodgerblue;
+}
+
+.box4 {
+    border-color: blueviolet;
+}
+
+.box5 {
+    border-color: aqua;
+    background-color: antiquewhite;
+    color: rebeccapurple
+}
+
+.box6 {
+    border-color: darkgoldenrod;
+}
+
+.box7 {
+    border-color: coral;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.box8 {
+    border-radius: 50%;
+    border-color: white;
+    background-color: hotpink;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+
+.box9 {
+    border-color: lawngreen;
+    transition: 1s linear;
+}
+
+.box9:hover {
+    border-color: crimson;
+}
+
+.box10 {
+    border-color: magenta;
+    transition: 1s linear;
+}
+
+.box10:hover {
+    border-radius: 150px;
+    border-color: darkblue;
+    background-color: dimgray;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.box11 {
+    border-color: darkorange;
+}
+
+.box12 {
+    border-color: rosybrown;
+}
+
+.box13 {
+    border-color: slategrey;
+    transition: 0.5s linear;
+    height: 30px;
+}
+
+.box13:hover{
+    height: 250px;
+}

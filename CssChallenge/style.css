@@ -1,0 +1,16 @@
+
+a {
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+    transition: all 0.3s linear;
+}
+
+a:hover {
+    color: rgb(0, 30, 255);
+    font-size: 1.2em;
+}
+
+img {
+    width: 100px;
+    height: 50px;
+}
